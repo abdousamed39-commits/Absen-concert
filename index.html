@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABSEN Concert - 07 Nov 2026</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#061a14;color:white}
+.hero{position:relative;min-height:85vh;background:linear-gradient(rgba(0,0,0,0.2), rgba(6,26,20,1)), url('absen.jpg');background-size:cover;background-position:center top;display:flex;align-items:flex-end;padding:20px}
+.hero-content{width:100%;max-width:500px;margin:0 auto}
+.badge-date{background:#d4c06a;color:#0a2214;padding:8px 16px;border-radius:30px;font-weight:900;display:inline-block;margin-bottom:12px;font-size:14px}
+.hero h1{font-size:42px;font-weight:900;color:#d4c06a;line-height:0.9;letter-spacing:2px}
+.hero h2{font-size:28px;font-weight:900;margin:10px 0;line-height:1.1}
+.hero .loc{background:rgba(0,0,0,0.6);backdrop-filter:blur(10px);padding:12px 16px;border-radius:12px;margin-top:15px;border-left:4px solid #d4c06a}
+.container{max-width:500px;margin:0 auto;padding:20px 15px;background:#0a2214}
+.countdown{display:flex;gap:10px;justify-content:center;margin:20px 0}
+.cd-box{background:#12382a;border-radius:12px;padding:12px 8px;text-align:center;flex:1;border:1px solid #1e5a40}
+.cd-num{font-size:26px;font-weight:900;color:#d4c06a}
+.cd-label{font-size:10px;color:#8ab0a0;letter-spacing:1px}
+.title{color:#d4c06a;text-align:center;font-size:22px;font-weight:900;margin:25px 0 15px;letter-spacing:1px}
+.card{border-radius:18px;padding:16px;margin:16px 0;background:linear-gradient(135deg, #12382a, #0f2e22);border:1px solid #1e5a40;position:relative;overflow:hidden}
+.card.vip{border-color:#d4c06a;background:linear-gradient(135deg, #1a3d2e, #2a2a1a);border-width:2px}
+.card h3{font-size:18px;display:flex;justify-content:space-between;align-items:center}
+.price{font-size:32px;font-weight:900;color:white;margin:12px 0}
+.price span{font-size:14px;color:#8ab0a0;font-weight:400}
+.old-price{text-decoration:line-through;color:#5a8a72;font-size:14px;margin-right:8px}
+.badge-vip{background:#d4c06a;color:#0a2214;padding:4px 10px;border-radius:20px;font-size:10px;font-weight:900}
+.btn-buy{display:block;background:#25D366;color:white;padding:14px;border-radius:30px;text-decoration:none;font-weight:900;text-align:center;margin-top:12px;font-size:16px}
+.btn-buy.vip{background:#d4c06a;color:#0a2214}
+.btn-buy:active{transform:scale(0.98)}
+.prevente-tag{background:#25D366;color:white;padding:3px 8px;border-radius:6px;font-size:10px;font-weight:900;margin-left:8px}
+.info-box{background:#12382a;border-radius:14px;padding:16px;margin:12px 0;display:flex;gap:12px;align-items:center;border:1px solid #1e5a40}
+.info-box .icon{font-size:22px}
+.pay-box{display:flex;justify-content:space-between;align-items:center;background:white;color:#111;border-radius:12px;padding:12px 16px;margin:10px 0}
+.pay-num{font-weight:900;color:#0a2214}
+.footer{text-align:center;padding:30px 20px;color:#5a8a72;background:#061a14}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<div class="hero-content">
+<div class="badge-date">📅 07 NOVEMBRE 2026</div>
+<h1>ABSEN</h1>
+<h2>TERRAIN DE BASKET<br><span style="font-size:18px;font-weight:400;color:#cde0d6">Ancienne Maison des Jeunes</span></h2>
+<div class="loc">
+<div style="font-weight:800;color:#d4c06a">📍 TERRAIN DE BASKET</div>
+<div style="font-size:13px;color:#cde0d6;margin-top:4px">Ancienne Maison des Jeunes - Nouakchott</div>
+<div style="font-size:12px;color:#8ab0a0;margin-top:6px">Organisé par HMR PRESENT</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="countdown">
+<div class="cd-box"><div class="cd-num" id="days">--</div><div class="cd-label">JOURS</div></div>
+<div class="cd-box"><div class="cd-num" id="hours">--</div><div class="cd-label">HEURES</div></div>
+<div class="cd-box"><div class="cd-num" id="mins">--</div><div class="cd-label">MIN</div></div>
+<div class="cd-box"><div class="cd-num" id="secs">--</div><div class="cd-label">SEC</div></div>
+</div>
+
+<div class="title">🎫 BILLETS PRÉVENTE</div>
+
+<div class="card">
+<h3>🎟️ SIMPLE <span class="prevente-tag">PRÉVENTE</span></h3>
+<div class="price"><span class="old-price">200 MRU</span>150 MRU <span>/ prévente</span></div>
+<div style="font-size:12px;color:#8ab0a0">Accès Terrain - Jour J : 200 MRU</div>
+<a href="https://wa.me/22234190047?text=Salam%20je%20veux%201%20Billet%20SIMPLE%20Prévente%20ABSEN%20150MRU" class="btn-buy">Acheter Simple 150 MRU</a>
+</div>
+
+<div class="card vip">
+<h3>⭐ VIP <span class="badge-vip">MEILLEUR CHOIX</span></h3>
+<div class="price"><span class="old-price">400 MRU</span>300 MRU <span>/ prévente</span></div>
+<div style="font-size:12px;color:#c9b86a">Zone VIP Proche Scène - Jour J : 400 MRU</div>
+<a href="https://wa.me/22234190047?text=Salam%20je%20veux%201%20Billet%20VIP%20Prévente%20ABSEN%20300MRU" class="btn-buy vip">Acheter VIP 300 MRU</a>
+</div>
+
+<div class="title">ℹ️ INFOS PRATIQUES</div>
+<div class="info-box"><div class="icon">📅</div><div><b>07 Novembre 2026</b><br><span style="font-size:13px;color:#8ab0a0">Ouverture des portes 18h00</span></div></div>
+<div class="info-box"><div class="icon">📍</div><div><b>Terrain de Basket</b><br><span style="font-size:13px;color:#8ab0a0">Ancienne Maison des Jeunes</span></div></div>
+<div class="info-box"><div class="icon">📞</div><div><b>Infos & Réservations</b><br><span style="font-size:13px;color:#8ab0a0">34190047 - 48900473</span></div></div>
+
+<div class="title">💳 PAIEMENT</div>
+<div class="pay-box"><b>Sedad</b><span class="pay-num">34190047</span></div>
+<div class="pay-box"><b>Bankily</b><span class="pay-num">34190047</span></div>
+<div class="pay-box"><b>Masrvi</b><span class="pay-num">48900473</span></div>
+<p style="text-align:center;color:#8ab0a0;font-size:12px;margin-top:10px">Envoie le reçu sur WhatsApp pour recevoir ton billet</p>
+
+<a href="https://wa.me/22234190047?text=Salam%20je%20veux%20acheter%20billet%20ABSEN" style="display:block;background:white;color:#0a2214;padding:16px;border-radius:50px;text-align:center;font-weight:900;text-decoration:none;margin:25px 0;font-size:18px">💬 WhatsApp Billets : 34190047</a>
+
+</div>
+
+<div class="footer">
+<p style="font-weight:900;color:#d4c06a">ABSEN - THE BBTS</p>
+<p style="margin:8px 0">HMR PRESENT • EMERALD</p>
+<p style="font-size:11px">Eventick • VisionPlus</p>
+</div>
+
+<script>
+// Compte à rebours 07 Nov 2026
+const target = new Date('2026-11-07T18:00:00').getTime();
+setInterval(()=>{
+  const now = new Date().getTime();
+  const diff = target - now;
+  if(diff>0){
+    document.getElementById('days').innerText = Math.floor(diff/(1000*60*60*24));
+    document.getElementById('hours').innerText = Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+    document.getElementById('mins').innerText = Math.floor((diff%(1000*60*60))/(1000*60));
+    document.getElementById('secs').innerText = Math.floor((diff%(1000*60))/1000);
+  }
+},1000);
+</script>
+
+</body>
+  </html>
